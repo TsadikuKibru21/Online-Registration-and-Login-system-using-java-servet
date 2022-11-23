@@ -12,6 +12,10 @@
         <servlet-name>NewServlet</servlet-name>
         <servlet-class>NewServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CourseRegister</servlet-name>
+        <servlet-class>CourseRegister</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Register</servlet-name>
         <url-pattern>/servlet/Register</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CourseRegister</servlet-name>
+        <url-pattern>/CourseRegister</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>First.jsp</welcome-file>
